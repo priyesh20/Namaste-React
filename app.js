@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // Why React is library
 // Because it can work with small components in an application and fit at any place 
 
