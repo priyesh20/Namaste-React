@@ -1,4 +1,4 @@
-# Namaste-React (Igniting your app)
+# Namaste-React (Igniting your app) Chapter-2 🚀
 - This tutorial shows how to make your application production ready.
 - React doesn't make your application fast and production ready app, Lot of packages makes our application fast.
 - Npm does not stand for node package manager.
