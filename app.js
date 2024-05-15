@@ -1,51 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// Why React is library
-// Because it can work with small components in an application and fit at any place 
+// JSX (transpiled before it reaches the JS) - PARCEL - Babel
 
-// Create element take three argument {HTML tag to be created, Attributes to the tags, Value inside HTML tag}
-const heading = React.createElement('h1', {
-    id: "heading"
-}, 'Hello world from React')
+// JSX => React.createElement-JS object => HTMLElement(render)
+const Title = () =>  (
+    <h1 id="heading">
+        Title : Namaste react using JSX 🚀
+    </h1>
+)
 
-// This gives an object, It has props which has attributes and value as children
-console.log("heading", heading);
+const Title2 = (
+    <h2 id="heading">
+        Title2 : Namaste react using JSX 🚀
+    </h2>
+)
 
-// createRoot is to create a root to do all DOM manupulation, take argument for place where to create root.
-const Root = ReactDOM.createRoot(document.getElementById('root'))
-
-// This is to render HI tag inside root, takes the H1 object and create the H1 tag that browser understands
-Root.render(heading)
-
-/**
- * 
- * <div id="parent">
- *      <div id="children">
- *          <h1>Testing</h1>      
- *      </div>
- * </div>
- * 
- */
-
-const parent = React.createElement(
-    'div', { id: "parent" }, 
-    [
-        React.createElement(
-            'div', { id: "children1" }, 
-            [React.createElement('h1', { id: "test" }, "I am H1 tag."),
-            React.createElement('h2', { id: "test" }, "I am H2 tag.")]
-        ),
-        React.createElement(
-            'div', { id: "children2" }, 
-            [React.createElement('h1', { id: "test" }, "I am H1 tag."),
-            React.createElement('h2', { id: "test" }, "I am H2 tag.")]
-        )
-    ]
-);
-
-console.log(parent);
-
-Root.render(parent);
+// Components composition
+const HeadingComponent = () => (
+    <div id="container">
+        <Title />
+        {Title2}
+        <h1 className="heading">Namaste React Functional Component</h1>
+    </div>
+)
 
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<HeadingComponent />);
