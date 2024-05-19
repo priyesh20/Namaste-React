@@ -1,4 +1,20 @@
-# Namaste-React
+# Namaste-React 🚀🚀
+
+## (Talk is Cheap, show me the code) Chapter-4 🚀
+- Creating a food ordering app, first app of series
+- Learning about how to build an app
+- Fisrt step: Planning (What you are going to build, what is the process of building and how app look like)
+- Creating components using pen and paper
+- Second step: Build components slowly
+- Cretaed Header, body and Footer component
+- Created card components
+- Props are arguments to a function.
+- Destructuring on the fly ({resName, cuisine})
+- Config driven UI (Controlling UI using data)
+- Used object from swiggy to render cards
+- Used maps to update the card value dynamically
+- Why to have unique keys for each card? (Having key for each list item helps to render only new component, older compoenets will not rerender, otherwise do)
+- Never use index as key
 
 ## (Laying the foundation) Chapter-3 🚀
 - Create script to build application, add tags ubder script in package.json to run build (e.g npm run start {for dev}, npm run build {for prod}).
@@ -16,7 +32,6 @@
 - What is component composition? (Composing two components into one another)
 - Any javascript code can be put inside {}
 - As {} executes javascript, then it increases the chances of an attack. JSX handles this and sanitize your data
-- 
 
 
 ## (Igniting your app) Chapter-2 🚀
