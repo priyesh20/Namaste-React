@@ -8,7 +8,7 @@
 - useState() and useEffect() are two impotant hooks.
 - Whenever state variable changes, react will rerender components.
 - Reconciliation algorithm also know as react fiber
-- Virtual DOM is represntation of actual DOM
+- Virtual DOM is representation of actual DOM
 - Virtual DOM is javascipt object
 - Diff algorithm - finds out difference between virtual DOM.
 - https://github.com/acdlite/react-fiber-architecture  (Read about react fiber)
