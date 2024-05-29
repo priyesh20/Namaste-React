@@ -1,5 +1,18 @@
 # Namaste-React 🚀🚀
 
+## (Lets Get Hooked) Chapter-5 🚀
+- Restructure app.js file
+- Keep file name exactly as component name
+- Two type of exports and import default export(export a component by default and use directly) and named export(export multiple values, and can be imported using {})
+- React hook is a normal javascript utility function, it is pre-build.
+- useState() and useEffect() are two impotant hooks.
+- Whenever state variable changes, react will rerender components.
+- Reconciliation algorithm also know as react fiber
+- Virtual DOM is representation of actual DOM
+- Virtual DOM is javascipt object
+- Diff algorithm - finds out difference between virtual DOM.
+- https://github.com/acdlite/react-fiber-architecture  (Read about react fiber)
+
 ## (Talk is Cheap, show me the code) Chapter-4 🚀
 - Creating a food ordering app, first app of series
 - Learning about how to build an app
@@ -59,3 +72,24 @@
 - Parcel is generating dev build, local server, HMR(HOT MODULE REPLACEMENT), file watching algorithm - c++, Caching - faster Builds(.parcel-cache), Image Optimization, Minification, Bundling, compress files, consistant hashing, code spliting, differential bundling(support older browsers), Diagnostic, error handling, tree shaking(remove unused code for you), Diff dev and prod build.
 - Remove main from package.json when using parcel 
 - browsersList is to have your app supported on older browsers. [explore package]
+
+
+
+
+## Extras (Fast Food Delivery)
+/**
+ * Hearder
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - Restaurant container
+ *    - RestaurantCard
+ *      - Img
+ *      - Name of Res, Star Rating, cuisine, delivery time 
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
